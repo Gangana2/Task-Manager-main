@@ -15,7 +15,7 @@ mongoose.connect('mongodb://localhost:27017/taskmanager', {
   useNewUrlParser: true, 
   useUnifiedTopology: true 
 }) 
-.then(() => console.log('Connected to MongoDB')) 
+.then(() => console.log('Connected to MongoDB Succseful')) 
 .catch(err => console.error('MongoDB connection error:', err)); 
 
 const Task = require('./models/Task'); 
